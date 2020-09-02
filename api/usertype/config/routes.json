@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usertypes",
+      "handler": "usertype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usertypes/count",
+      "handler": "usertype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usertypes/:id",
+      "handler": "usertype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usertypes",
+      "handler": "usertype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usertypes/:id",
+      "handler": "usertype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usertypes/:id",
+      "handler": "usertype.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

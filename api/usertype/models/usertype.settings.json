@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usertypes",
+  "info": {
+    "name": "usertype"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "medicalDoctor",
+        "nutritionist",
+        "productOwner"
+      ],
+      "unique": true
+    }
+  }
+}
